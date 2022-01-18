@@ -1,6 +1,6 @@
 # Project 0 - Git Guide 
 ### Name: Hunter Seitz
-## Command Lone Git
+## Command Line Git
 
 - status
   - Shows status of the local repository. This status includes:
