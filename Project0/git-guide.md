@@ -10,34 +10,34 @@
   - `git status`
 - clone
     - Clone a repository into a new directory.
-    - git clone
+    - 'git clone'
 - add
     - Add file contents to the index.
-    - git add
+    - 'git add' 
 - rm
     - Remove files from the working tree and from the index. 
-    - git rm
+    - 'git rm'
 - commit
     - Record changes to the repository.
-    - git commit
+    - 'git commit'
 - push
     - Update remote refs along with associated objects.
-    - git push
+    - 'git push'
 - fetch
     - Download objects and refs from another repository.
-    - git fetch
+    - 'git fetch'
 - merge
     - Join two or more development histories together.
-    - git merge
+    - 'git merge'
 - pull
     - Fetch from and integrate with another repository or a local branch.
-    - git pull
+    - 'git pull'
 - branch
     - List, create, or delete branches.
-    - git branch
+    - 'git branch'
 - checkout
     - Switch branches or restore working tree files.
-    - git checkout
+    - 'git checkout'
 
 ## Git files & folders
 - .git folder
