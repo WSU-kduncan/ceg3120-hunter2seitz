@@ -41,7 +41,7 @@
 
 ## Git files & folders
 - .git folder
-    - .git folder contains all the information necessary for your project in    version control and all the information about commits, etc. 
+    - .git folder contains all the information necessary for your project in version control and all the information about commits, etc. 
 - .gitignore file
     - A file that allows to ignore directories, file types, etc. 
 
