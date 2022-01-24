@@ -44,10 +44,20 @@ async def on_message(message):
         'In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.',
         'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.',
     ]
+    xavier_quotes = [
+	'What doth life? Are we just fleshy blips in some meaningless stew of cosmic oblivion? Or is it vice-vers?' 
+	'A dead child is like pudding the proof is in the fact that he probably looked like pudding when he got hit by that car'
+	'Even the Bibles are ribbed, but whos pleasure?' 
+	'Im a survivor, were a dying breed.' 
+
+    ]
 
     if message.content == 'towel!':
         #response = random.choice(brooklyn_99_quotes)
         response = random.choice(hitchhiker_quotes)
         await message.channel.send(response)
+    if message.content == '!xavier':
+	response = random.choice(xavier_quotes)
+	await message.channel.send(response)
 
 client.run(TOKEN)
