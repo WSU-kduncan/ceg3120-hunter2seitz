@@ -9,11 +9,11 @@
 - Dependencies (what packages need to be installed to run the code?)
     - Some of the dependencies required are pip3 and pythondotenv.
 ### Usage
-    - Describe
+- Describe
         - I made a simple change in the discord.py code where I put couple quotes from another TV show.
-    - Commands
-        - One command is '!xavier' can be typed on my Discord server.
-    - What response provided by from the bot? 
+- Commands
+   - One command is '!xavier' can be typed on my Discord server.
+   - What response provided by from the bot? 
         - The bot will randomize a quote from the list of qoutes as provided.
             - For example, "What doth life" will be entered by the bot.  
 ### Research
