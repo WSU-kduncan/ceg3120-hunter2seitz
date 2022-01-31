@@ -17,4 +17,4 @@
         - The bot will randomize a quote from the list of qoutes as provided.
             - For example, "What doth life" will be entered by the bot.  
 ### Research
-    - The problem is that the bot turns off when the AWS service shuts down rendering unusuable. The only solution is the bot is Python-based and rather have the server which the bot is hosted on stays on perpetually. 
+- The problem is that the bot turns off when the AWS service shuts down rendering unusuable. The only solution is the bot is Python-based and rather have the server which the bot is hosted on stays on perpetually. 
