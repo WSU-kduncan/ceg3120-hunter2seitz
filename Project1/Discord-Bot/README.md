@@ -1,5 +1,5 @@
-# Hunter Seitz 
 ## Part 3- R&D
+### Hunter Seitz
 
 ### Setup
 - How to get an API token? 
