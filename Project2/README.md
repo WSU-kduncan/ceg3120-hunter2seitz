@@ -15,7 +15,8 @@ Third, created route tables to attach it with the VPC and dictates how packets a
 ![RT1](https://i.imgur.com/22MCRZ2.png)
 ![SG](https://i.imgur.com/9TS8ckF.png)
 Lastly, security groups are created as firewall. Below is my inbound rules that allows SSH traffic specifically. 
-![inbound](https://i.imgur.com/hCNbKqX.png)
+The 24.166 address is my home IP address. 
+![inbound](https://i.imgur.com/1Uvrz0f.png)
 
 
 ## Part 2 
