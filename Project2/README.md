@@ -4,18 +4,18 @@
 ## Part 1
 ![VPC](https://i.imgur.com/UgZLJ56.png)
 Creating a VPC is simple where you can create an IP address with a CIDR notation with it. I go ahead with 10.0.0.0/24. Below is the VPC is created. 
-![VPC1](/Images/VPC1.png)
+![VPC1](https://i.imgur.com/fgsf1fH.png)
 Next, created the Subnet by using the /28 notation to correspond with the overall VPC IP. Below the first screenshot is where the Subnet is created. 
-![Subnet](/Images/Subnet.png)
-![Subnet1](/Images/Subnet1.png)
-![GW](/Images/gateway1.png)
+![Subnet](https://i.imgur.com/UgZLJ56.png)
+![Subnet1](https://i.imgur.com/5JxPCMC.png)
+![GW](https://i.imgur.com/SHwbSzR.png)
 Second, created the gateway for the VPC as attached. 
-![RT](/Images/route table.png)
+![RT](https://i.imgur.com/LTpdVF4.png)
 Third, created route tables to attach it with the VPC and dictates how packets are forwarded. 
-![RT1](/Images/route table1.png)
-![SG](/Images/securitygroups.png)
+![RT1](https://i.imgur.com/22MCRZ2.png)
+![SG](https://i.imgur.com/9TS8ckF.png)
 Lastly, security groups are created as firewall. Below is my inbound rules that allows SSH traffic specifically. 
-![inbound](/Images/InboundRules.png)
+![inbound](https://i.imgur.com/hCNbKqX.png)
 
 
 ## Part 2 
@@ -28,8 +28,8 @@ You can add another storage option though.
 To reserve an Elastic IP address, we can allocate an Elastic IP address and then click
 on Actions and go to Associate Elastic IP address. There's the instance type and associate
 it with the VPC. 
-![instance](/Images/instance.png)
+![instance](https://i.imgur.com/NBMEcJ0.png)
 While accessing from using ssh command and got into the AMI instance. 
-![ssh](/Images/ssh access.png)
+![ssh](https://i.imgur.com/W0R7s0X.png)
 To change the hostname of the AMI, I did sudo hostnamectl set-hostname command to 
-![login](/Images/hostnamelogin.png)
+![login](https://i.imgur.com/PHvZLpE.png)
