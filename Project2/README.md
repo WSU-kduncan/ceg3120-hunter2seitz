@@ -2,7 +2,7 @@
 ### Name: Hunter Seitz
 
 ## Part 1
-![VPC](/Images/VPC.png)
+![VPC](https://i.imgur.com/UgZLJ56.png)
 Creating a VPC is simple where you can create an IP address with a CIDR notation with it. I go ahead with 10.0.0.0/24. Below is the VPC is created. 
 ![VPC1](/Images/VPC1.png)
 Next, created the Subnet by using the /28 notation to correspond with the overall VPC IP. Below the first screenshot is where the Subnet is created. 
