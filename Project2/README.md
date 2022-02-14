@@ -31,5 +31,5 @@ it with the VPC.
 ![instance](https://i.imgur.com/NBMEcJ0.png)
 While accessing from using ssh command and got into the AMI instance. 
 ![ssh](https://i.imgur.com/W0R7s0X.png)
-To change the hostname of the AMI, I did sudo hostnamectl set-hostname command to 
+To change the hostname of the AMI, I did sudo hostnamectl set-hostname command to seitz-AMI
 ![login](https://i.imgur.com/PHvZLpE.png)
