@@ -11,8 +11,7 @@ the ssh config file.
 
 - Setting up HAProxy 
     - Setting up
-        - The HAProxy is stored in the /etc directory and we can edit the haproxy.cfg file to set
-        any configurations like maxconn (maximum number of connections) or log (warnings).
+        - The HAProxy is stored in the /etc directory and we can edit the haproxy.cfg file to set any configurations like maxconn (maximum number of connections) or log (warnings).
         - Configurations
             - The Frontend should be the accessing the proxy in that case, the HAProxy. 
                 - frontend (proxy ip)
@@ -21,7 +20,7 @@ the ssh config file.
             - The Backend references the webserv1 instance and runs on it. 
                 - balance roundrobin
                 - the private IP of the webserv1 and webserv2
-        - sudo systemctl restart haproxy.service
+        - `sudo systemctl restart haproxy.service`
         - resources 
 - Webserver 
     - I used Apache2 for this instance. 
@@ -29,8 +28,8 @@ the ssh config file.
         - The index html file. 
         - There are no configurations are made. 
         - The site html files are stored in /var/www/html because the apache2 can read the files from the www directory where it finds html files. 
-        - sudo systemctl restart apache2.service
+        - `sudo systemctl restart apache2.service`
         - Resources 
 - Connecting to proxy 
-### Screenshot - Webserver 1
-### Screenshot - Webserver 2
+![webserv1](https://github.com/WSU-kduncan/ceg3120-hunter2seitz/blob/main/Project4/images/webserv1.png)
+![webserv2](https://github.com/WSU-kduncan/ceg3120-hunter2seitz/blob/main/Project4/images/webserv2.png) 
