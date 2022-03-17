@@ -30,6 +30,6 @@ the ssh config file.
         - The site html files are stored in /var/www/html because the apache2 can read the files from the www directory where it finds html files. 
         - `sudo systemctl restart apache2.service`
         - Resources 
-- Connecting to proxy 
+- Connecting to proxy and two webservers.  
 ![webserv1](https://github.com/WSU-kduncan/ceg3120-hunter2seitz/blob/main/Project4/images/webserv1.png)
 ![webserv2](https://github.com/WSU-kduncan/ceg3120-hunter2seitz/blob/main/Project4/images/webserv2.png) 
