@@ -6,7 +6,7 @@ The config file in ssh sets the host name of the instance by adding the private 
 associated with the name of the instance. 
 The proxy and the webserv1 instances are in different subnets, but in a
 same bane of the cloud. To ssh into the webserv1 instance, we can 
-ssh -i (key) ubuntu@webserv1. The webserv1 at the end is the hostname I set in by
+`ssh -i (key) ubuntu@webserv1`. The webserv1 at the end is the hostname I set in by
 the ssh config file. 
 
 - Setting up HAProxy 
