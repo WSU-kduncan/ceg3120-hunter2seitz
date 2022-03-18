@@ -34,7 +34,7 @@ the ssh config file.
         - `sudo systemctl restart apache2.service`
         - Resources 
             - [Installing Apache2](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04) 
-            - 
+            
 - Connecting to proxy and two webservers.  
 ![webserv1](https://github.com/WSU-kduncan/ceg3120-hunter2seitz/blob/main/Project4/images/webserv1.png)
 ![webserv2](https://github.com/WSU-kduncan/ceg3120-hunter2seitz/blob/main/Project4/images/webserv2.png) 
