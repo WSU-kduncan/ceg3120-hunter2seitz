@@ -11,7 +11,7 @@ of Docker and let it install. With WSL2 option is enabled.
 - To run the container:
     - `docker run -it image`
 - To view the project, we can access the page by from `localhost` and with port 80 to display
-contents from a http file. 
+contents from a html file. 
 ### Part 2
 
 
