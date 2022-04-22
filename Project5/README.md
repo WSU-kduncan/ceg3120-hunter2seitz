@@ -27,6 +27,6 @@ contents from a http file.
 - To set up a notifier in GitHub, you can configure in the webhook as a function by requiring hostname and the port. 
 
 ### Result
-![website](![image](https://github.com/WSU-kduncan/ceg3120-hunter2seitz/blob/main/Project5/website1.png)
+(![image](https://github.com/WSU-kduncan/ceg3120-hunter2seitz/blob/main/Project5/website1.png)
 
 
